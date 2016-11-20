@@ -69,7 +69,6 @@ class Daemonize(object):
         """
         self.logger.warn("Stopping daemon.")
         os.remove(self.pid)
-        sys.exit(0)
 
     def start(self):
         """
